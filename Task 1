@@ -1,0 +1,170 @@
+# ApexPlanet Cybersecurity Internship – Task 1
+
+## Objective
+
+The main objective of Task 1 is to build a safe and isolated cybersecurity lab environment and strengthen my fundamentals in **Linux, Networking, Cryptography, and Security Tools**. This lab helps in gaining hands-on experience with real-world tools used in penetration testing and network analysis.
+
+---
+
+## 1. Lab Environment Setup
+
+To begin with, I created a virtual lab using virtualization software.
+
+### Tools Used
+
+* **Virtualization Software:** VirtualBox / VMware
+* **Attacker Machine:** Kali Linux
+* **Target Machines:** Metasploitable2 / DVWA (Damn Vulnerable Web Application)
+* **Network Configuration:** Host-Only Adapter (private and isolated network)
+
+### Steps Followed
+
+1. Installed VirtualBox / VMware on the system.
+2. Installed Kali Linux as the attacker machine.
+3. Installed Metasploitable2 or DVWA as the target machine.
+4. Configured all virtual machines to use a **Host-Only Adapter**.
+5. Verified connectivity between machines using ping commands.
+
+---
+
+## 2. Linux Fundamentals
+
+I practiced essential Linux commands required for system navigation, administration, and networking.
+
+### File System Navigation
+
+* `pwd` – Displays the current directory
+* `ls` – Lists files and directories
+* `cd` – Changes the directory
+
+### File and Directory Permissions
+
+* `chmod` – Changes file permissions
+* `chown` – Changes file ownership
+* `ls -l` – Displays permission details
+
+### Package Management
+
+* `apt update` and `apt upgrade`
+* `apt install <package>`
+* `dpkg -i <package.deb>`
+
+### Networking Commands
+
+* `ifconfig` / `ip a` – Displays network interfaces
+* `ping` – Tests connectivity
+* `netstat` – Displays network connections
+* `traceroute` – Traces packet path
+
+---
+
+## 3. Networking Basics
+
+I studied the core networking concepts that are essential for understanding how data flows in a network.
+
+### OSI Model
+
+1. Physical
+2. Data Link
+3. Network
+4. Transport
+5. Session
+6. Presentation
+7. Application
+
+### TCP/IP Model
+
+* Application Layer
+* Transport Layer
+* Internet Layer
+* Network Access Layer
+
+### Key Concepts
+
+* DNS and its working
+* HTTP and HTTPS
+* IP Addressing (IPv4 and IPv6)
+* Subnetting and NAT
+
+---
+
+## 4. Cryptography Basics
+
+I learned the fundamentals of cryptography used to secure data.
+
+### Encryption Types
+
+* **Symmetric Encryption:** AES
+* **Asymmetric Encryption:** RSA
+
+### Hashing Algorithms
+
+* MD5
+* SHA256
+
+### Digital Security
+
+* Digital Certificates
+* SSL/TLS
+
+### Hands-on with OpenSSL
+
+* Encrypting a file using AES
+* Decrypting the encrypted file
+
+---
+
+## 5. Tool Familiarization
+
+I explored commonly used cybersecurity tools and their basic functionality.
+
+* **Wireshark:** Packet capturing and traffic analysis
+* **Nmap:** Network scanning and host discovery
+* **Burp Suite:** Web application proxy testing
+* **Netcat:** Network debugging and data transfer
+
+---
+
+## 6. Lab Evidence
+
+The following screenshots were captured as proof of task completion:
+
+* Kali Linux running
+* Metasploitable/DVWA setup
+* Network configuration
+* Wireshark packet capture
+
+---
+
+## 7. GitHub Repository Structure
+
+```
+ApexPlanet-Task1/
+├── README.md
+├── screenshots/
+│   ├── kali.png
+│   ├── metasploitable.png
+│   └── wireshark.png
+├── notes/
+│   ├── linux-basics.md
+│   ├── networking.md
+│   ├── cryptography.md
+│   └── tools.md
+└── cheatsheet/
+    └── linux-cheatsheet.md
+```
+
+---
+
+## Linux Cheat Sheet (Quick Reference)
+
+* Navigation: `pwd`, `ls`, `cd`
+* Permissions: `chmod`, `chown`
+* Package Management: `apt`, `dpkg`
+* Networking: `ip a`, `ping`, `netstat`, `traceroute`
+
+---
+
+## Conclusion
+
+By completing Task 1, I successfully built a functional cybersecurity lab and strengthened my understanding of Linux, networking, cryptography, and essential security tools. This task provided a strong foundation for the upcoming phases of the ApexPlanet Cybersecurity Internship.
