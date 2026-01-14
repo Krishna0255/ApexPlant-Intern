@@ -1,0 +1,15 @@
+4️⃣ Local File Inclusion (LFI)
+
+OWASP: A05 – Security Misconfiguration
+
+⚔️ Payload
+?page=../../../../etc/passwd
+Impact
+
+Sensitive file disclosure
+
+🛡️ Mitigation
+
+Whitelist file paths
+
+Disable directory traversal
