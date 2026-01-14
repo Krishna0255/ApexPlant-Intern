@@ -1,1 +1,158 @@
 
+
+# 🔐 DVWA Attack Scenarios & Mitigation
+
+**Task‑3: Web Application Security Practical**
+
+This repository contains **step‑by‑step attack demonstrations** performed on **DVWA (Damn Vulnerable Web Application)** along with **detailed mitigation techniques** mapped to the **OWASP Top 10** vulnerabilities.
+
+⚠️ **For educational and ethical testing only**
+
+---
+
+## 🎯 Objective
+
+* Understand common **web application vulnerabilities**
+* Perform **hands‑on attacks** in a controlled environment
+* Learn **secure coding practices**
+* Demonstrate **attack → impact → mitigation**
+* Build a **cybersecurity GitHub portfolio**
+
+---
+
+## 🧪 Lab Environment
+
+| Component       | Description  |
+| --------------- | ------------ |
+| OS              | Kali Linux   |
+| Web Application | DVWA         |
+| Web Server      | Apache2      |
+| Backend         | PHP          |
+| Database        | MariaDB      |
+| Browser         | Firefox      |
+| Security Level  | Low / Medium |
+
+---
+
+## 📂 Repository Structure
+
+```
+DVWA-Attacks-And-Mitigations/
+│
+├── 01-SQL-Injection/
+│   ├── attack.md
+│   ├── payloads.txt
+│   └── mitigation.md
+│
+├── 02-Cross-Site-Scripting/
+│   ├── stored-xss.md
+│   ├── reflected-xss.md
+│   └── mitigation.md
+│
+├── 03-CSRF/
+│   ├── csrf-attack.md
+│   └── mitigation.md
+│
+├── 04-File-Inclusion/
+│   ├── lfi.md
+│   └── mitigation.md
+│
+├── screenshots/
+│
+├── README.md
+└── LICENSE
+```
+
+---
+
+## 🔴 Vulnerabilities Covered (Task‑3)
+
+### 1️⃣ SQL Injection (SQLi)
+
+* Authentication bypass
+* Database data extraction
+* UNION‑based SQL injection
+* **Mitigation:** Prepared statements, parameterized queries
+
+### 2️⃣ Cross‑Site Scripting (XSS)
+
+* Stored XSS
+* Reflected XSS
+* **Mitigation:** Output encoding, input validation, CSP
+
+### 3️⃣ Cross‑Site Request Forgery (CSRF)
+
+* Unauthorized password change
+* Malicious HTML form attack
+* **Mitigation:** CSRF tokens, SameSite cookies
+
+### 4️⃣ Local File Inclusion (LFI)
+
+* Directory traversal
+* Sensitive file disclosure
+* **Mitigation:** Whitelisting, path validation
+
+---
+
+## 🛡️ Security Concepts Used
+
+* Input Validation
+* Output Encoding
+* Prepared Statements
+* Token‑based Protection
+* Principle of Least Privilege
+
+---
+
+## 🧠 OWASP Top 10 Mapping
+
+| Vulnerability | OWASP ID                        |
+| ------------- | ------------------------------- |
+| SQL Injection | A03 – Injection                 |
+| XSS           | A07 – XSS                       |
+| CSRF          | A01 – Broken Access Control     |
+| LFI           | A05 – Security Misconfiguration |
+
+---
+
+## 🚀 How to Run DVWA
+
+```bash
+sudo systemctl start apache2
+sudo systemctl start mariadb
+```
+
+Open:
+
+```
+http://localhost/dvwa
+```
+
+Login:
+
+```
+admin / password
+```
+
+---
+
+## 📸 Screenshots
+
+All attack outputs and proof‑of‑concept screenshots are stored inside:
+
+```
+/screenshots
+```
+
+---
+
+## 📚 References
+
+* OWASP Top 10
+* DVWA Official GitHub
+* PortSwigger Web Security Academy
+
+
+
+Just say **next** 👍
+
