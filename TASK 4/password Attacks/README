@@ -1,0 +1,15 @@
+# Password Attacks
+
+## Objective
+To demonstrate weaknesses in authentication mechanisms.
+
+## Activities Performed
+- SSH brute-force attack
+- Password hash cracking
+
+## Tools Used
+- Hydra
+- John the Ripper
+
+## Outcome
+Weak passwords were successfully cracked, emphasizing the need for strong password policies.
