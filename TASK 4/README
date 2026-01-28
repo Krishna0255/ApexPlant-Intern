@@ -1,0 +1,134 @@
+🔐 Task 4 – Penetration Testing Workflow
+
+ApexPlanet Software Pvt. Ltd.
+
+📌 Overview
+
+This repository documents Task 4, completed as part of my cybersecurity learning program with ApexPlanet Software Pvt. Ltd.
+The task focuses on understanding and implementing the Penetration Testing Methodology in a controlled lab environment.
+
+⚠️ All activities were performed ethically on authorized test systems only (Metasploitable2).
+
+🎯 Objective
+
+Learn the complete penetration testing workflow
+
+Exploit known vulnerabilities responsibly
+
+Understand password attacks, social engineering (simulation), malware basics
+
+Apply system hardening techniques
+
+Document findings and mitigations professionally
+
+🧠 Penetration Testing Phases Covered
+1️⃣ Reconnaissance
+
+Network discovery
+
+Target identification
+
+2️⃣ Scanning & Enumeration
+
+Port scanning (Nmap)
+
+Service and vulnerability detection
+
+3️⃣ Exploitation
+
+Exploiting known vulnerabilities in Metasploitable2
+
+Gaining access using Metasploit
+
+Establishing a reverse shell
+
+4️⃣ Post-Exploitation
+
+System information gathering
+
+Password hash dumping
+
+Privilege verification
+
+5️⃣ Password Attacks
+
+SSH brute-force using Hydra
+
+Password hash cracking using John the Ripper
+
+6️⃣ Social Engineering (Simulation Only)
+
+Phishing awareness simulation
+
+Understanding human-based attack vectors
+
+Defensive awareness training
+
+7️⃣ Malware Basics
+
+Static vs Dynamic malware analysis
+
+Sandbox-based benign sample analysis
+
+8️⃣ System Hardening
+
+Applying security patches
+
+Firewall configuration
+
+Disabling unused services
+
+Reducing attack surface
+
+🛠️ Tools & Technologies Used
+
+Kali Linux
+
+Metasploitable2
+
+Nmap
+
+Metasploit Framework
+
+Hydra
+
+John the Ripper
+
+Netcat
+
+Linux Firewall (UFW)
+
+📂 Repository Structure
+Task-4-Penetration-Testing/
+│
+├── recon/
+├── scanning/
+├── exploitation/
+├── post-exploitation/
+├── password-attacks/
+├── social-engineering/
+├── malware-analysis/
+├── system-hardening/
+├── screenshots/
+└── report/
+
+📑 Deliverables
+
+✔ Detailed penetration testing documentation
+✔ Screenshots of each phase
+✔ Mitigation strategies for identified vulnerabilities
+✔ Ethical and academic-focused implementation
+
+⚖️ Disclaimer
+
+This project is strictly for educational and ethical purposes.
+No real-world systems, websites, or users were harmed or targeted.
+
+🙏 Acknowledgment
+
+Thanks to ApexPlanet Software Pvt. Ltd. for providing structured tasks and hands-on learning opportunities in cybersecurity.
+
+📌 Author
+
+Srikrishna Chowdary
+Cybersecurity Enthusiast | Ethical Hacking Learner
